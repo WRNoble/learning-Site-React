@@ -9,9 +9,10 @@ import Courses from './Courses';
 const App = () => (
   <BrowserRouter>
     <div className="container">
-      <Header />
+      <Header /> 
+      {/* header is included on all routes so it is left outside the routes */}
       <Route exact path="/" component={Home} />
-      <Route path="/about" component={About} />
+      <Route path="/about" render={ () => <About title="About" /> } />
       <Route exact path="/teachers" component={Teachers} />
       <Route exact path="/courses" component={Courses} />
     </div>
