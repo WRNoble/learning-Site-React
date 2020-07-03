@@ -13,7 +13,7 @@
 }
 body {
   color: #576366;
-  background: #5fcf80;
+  background: #eb520c;
   margin: 0;
   font-family: 'Roboto', sans-serif;
 }
@@ -120,8 +120,8 @@ header {
 }
 .main-nav a:hover,
 .main-nav .active {
-  color: #fff;
-  background: #3b80d1;
+  color: rgb(251, 247, 5);
+  background: #0b5396;
 }
 
 /* COURSE NAV -------- */
