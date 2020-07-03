@@ -13,8 +13,8 @@ const App = () => (
       {/* header is included on all routes so it is left outside the routes */}
       <Route exact path="/" component={Home} />
       <Route path="/about" render={ () => <About title="About" /> } />
-      <Route exact path="/teachers" component={Teachers} />
-      <Route exact path="/courses" component={Courses} />
+      <Route path="/teachers" component={Teachers} />
+      <Route path="/courses" component={Courses} />
     </div>
   </BrowserRouter>
 );
