@@ -5,8 +5,7 @@ const Featured = ( {match} ) => {
   let topic = match.params.topic
   return (
     <div className="main-content">
-      <h2>{name}</h2>
-  <p>Introducing <strong>{name}</strong>, a teacher who loves teaching courses about <strong>{topic}</strong>!</p>
+      <p><strong>Thank you</strong>, for suggesting {topic}!</p>
     </div>
   );
 }

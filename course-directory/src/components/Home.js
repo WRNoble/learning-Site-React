@@ -13,16 +13,16 @@ class Home extends Component {
   render() {
     return (
       <div className="main-content home">
-        <h2>Front End Course Directory</h2>
-        <p>This fun directory is a project for the <em>React Router Basics</em> course on Treehouse.</p>
-        <p>Learn front end web development and much more! This simple directory app offers a preview of our course library. Choose from many hours of content, from HTML to CSS to JavaScript. Learn to code and get the skills you need to launch a new career in front end web development.</p>
-        <p>We have thousands of videos created by expert teachers on web design and front end development. Our library is continually refreshed with the latest on web technology so you will never fall behind.</p>
+        <h2>In Development</h2>
+        <p>This fun directory is a project for the<em>React Router Basics</em> course on Treehouse.</p>
+        <p>I worked out the functionality of the site with React.js and modified aspects of the CSS.</p>
+        <p>I took this assignment on in order to develop my understanding of react-router.  I plan to integrate some of the functionality demonstrated here in my portfolio.</p>
         <hr />
-        <h3>Featured Teachers</h3>
+        <h3>Suggest A New Class</h3>
+        <p>In the form below suggest a topic you would like to see us teach.</p>
         <form onSubmit={this.handleSubmit}>
-          <input type="text" placeholder="Name"  ref={ (input) => this.name = input } />
           <input type="text" placeholder="Topic" ref={ (input) => this.topic = input } />
-          <button type="submit">Create Teacher!</button>
+          <button type="submit">Suggest Class!</button>
         </form>
       </div>
     );
