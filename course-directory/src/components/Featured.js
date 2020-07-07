@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Featured = ( {match} ) => {
-  let topic = match.params.topic
+const Featured = () => {
+
   return (
     <div className="main-content">
-      <p><strong>Thank you</strong>, for suggesting {topic}!</p>
+      <p><strong>Thank you</strong>, For your suggestion!  In the meantime why don't you checkout our other awesome classes!</p>
     </div>
   );
 }
